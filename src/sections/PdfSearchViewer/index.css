@@ -1,0 +1,9 @@
+:root {
+    --rpv-search__highlight--current-background-color: yellow;
+    /* Set to yellow or any other color */
+}
+
+.rpv-search__highlight--current {
+    background-color: var(--rpv-search__highlight--current-background-color) !important;
+    opacity: 0.4;
+}
